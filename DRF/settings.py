@@ -25,7 +25,10 @@ SECRET_KEY = 'q)fv*og0ug_hoa!t^8ns4=)!o^ra=r!b@f8*sv%c9v_dhcuz&u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'drfproject.herokuapp.com',  # Allow domain and subdomains
+#    '.example.com.',  # Also allow FQDN and subdomains
+]
 
 # Application definition
 
