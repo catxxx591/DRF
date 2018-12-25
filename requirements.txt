@@ -7,3 +7,4 @@ gunicorn==19.9.0
 pytz==2018.7
 static3==0.7.0
 wincertstore==0.2
+django_heroku==0.3.1
